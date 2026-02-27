@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "repro-benchmark"
-version = "0.1.0"
+version = "0.1.2"
 description = "Reproducible, one-command benchmarking for small ML baselines."
 readme = "README.md"
 requires-python = ">=3.10"
@@ -29,9 +29,9 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/YOUR-ORG/repro-benchmark"
-Repository = "https://github.com/YOUR-ORG/repro-benchmark"
-Issues = "https://github.com/YOUR-ORG/repro-benchmark/issues"
+Homepage = "https://github.com/Bonartze/repro-benchmark"
+Repository = "https://github.com/Bonartze/repro-benchmark"
+Issues = "https://github.com/Bonartze/repro-benchmark/issues"
 
 [project.scripts]
 repro-benchmark = "repro_benchmark.cli:main"

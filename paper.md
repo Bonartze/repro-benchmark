@@ -5,7 +5,7 @@ tags:
   - benchmarking
   - machine learning
 authors:
-  - name: YOUR NAME
+  - name: Ivan Kirilin
     affiliation: 1
 affiliations:
   - name: Independent Researcher
@@ -46,6 +46,3 @@ repro-benchmark report --outdir outputs
 ```
 
 The generated report includes a summary table (mean accuracy and macro-F1 across datasets) and a figure visualizing accuracy by dataset/model.
-
-## References
-Ivan Kirilin
