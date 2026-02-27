@@ -2,7 +2,7 @@
 
 A small, **reproducible** command-line tool to run baseline ML benchmarks, export results, and generate a minimal report.
 
-This project is designed to be **JOSS-friendly**: clear install/run steps, deterministic outputs (fixed seeds), tests, and a short paper (`paper/paper.md`).
+This project is designed to be **JOSS-friendly**: clear install/run steps, deterministic outputs (fixed seeds), tests, and a short paper (`paper.md`).
 
 ## Install
 
@@ -54,4 +54,4 @@ MIT — see `LICENSE`.
 
 ## How to cite
 
-See `CITATION.cff` and the JOSS paper in `paper/`.
+See `CITATION.cff` and the JOSS paper in `paper.md`.

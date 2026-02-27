@@ -14,18 +14,20 @@ date: 2026-02-26
 bibliography: paper.bib
 ---
 
-## Summary
+# Summary
 
 Reproducible baselines are essential in computer science research, yet many small experiments are hard to re-run due to ad hoc scripts, missing seeds, or inconsistent result export.
 `repro-benchmark` provides a minimal command-line workflow that runs deterministic baseline models on standard toy datasets, exports results to CSV, produces a simple plot, and generates a lightweight Markdown report.
 
-## Statement of need
+# Statement of need
 
 Researchers frequently need a fast, repeatable way to (i) sanity-check an environment, (ii) compare baseline models, or (iii) demonstrate end-to-end reproducibility.
 While full-featured experiment trackers exist, a compact “one command” tool is useful for small projects, tutorials, replication packages, and continuous integration checks.
 `repro-benchmark` emphasizes deterministic execution (fixed random seeds), standard exports, and a short path from raw results to a human-readable report.
 
-## Functionality
+# Functionality
+
+The tool uses standard toy datasets and baseline estimators from scikit-learn [@sklearn].
 
 The tool ships with a CLI:
 
@@ -36,7 +38,7 @@ The tool ships with a CLI:
 
 All steps operate on files in a user-specified output directory, supporting simple automation and integration into CI pipelines.
 
-## Example
+# Example
 
 ```bash
 repro-benchmark run --outdir outputs
@@ -46,3 +48,5 @@ repro-benchmark report --outdir outputs
 ```
 
 The generated report includes a summary table (mean accuracy and macro-F1 across datasets) and a figure visualizing accuracy by dataset/model.
+
+# References
